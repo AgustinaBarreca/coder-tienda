@@ -1,12 +1,11 @@
 import "./App.css";
+import NavBar from './components/global/NavBar.jsx';
 
 function App() {
   return (
-    <div className="App">
-      <h1> Hola Mundo! </h1>
-      <p> Este es mi e-commerce! </p>
-    </div>
+      <NavBar />
   );
 }
 
 export default App;
+
